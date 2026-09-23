@@ -1,0 +1,30 @@
+/* Títulos */
+.section-header {
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.6rem;
+  color: #1a237e;
+}
+
+.section-header p {
+  margin: 0;
+  color: #6c757d;
+}
+
+/* Grilla para ordenar las tarjetas de Angular Material */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Ordenar el formulario hacia abajo */
+.form-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}

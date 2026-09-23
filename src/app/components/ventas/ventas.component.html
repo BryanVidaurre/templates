@@ -1,0 +1,46 @@
+<div class="section-header">
+  <h2>Módulo de Ventas</h2>
+  <p>Gestión de órdenes y registro de transacciones.</p>
+</div>
+
+<div class="cards-grid">
+  <!-- Tarjeta con formulario -->
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Nueva Venta</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form class="form-layout">
+        <mat-form-field appearance="outline">
+          <mat-label>Cliente</mat-label>
+          <input matInput placeholder="Nombre del cliente">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Total ($)</mat-label>
+          <input matInput type="number" placeholder="0.00">
+        </mat-form-field>
+      </form>
+    </mat-card-content>
+    <mat-card-actions align="end">
+      <button mat-raised-button color="primary">Guardar</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+
+<div class="section-header">
+  <h2>Módulo de Ventas</h2>
+  <p>Gestión de órdenes y registro de transacciones.</p>
+</div>
+
+<!-- Menú interno exclusivo de la sección Ventas -->
+<div class="ventas-menu">
+  <!-- Ojo a las rutas: son relativas al padre -->
+  <a mat-button routerLink="/ventas/listado" routerLinkActive="active-sublink">Ver Listado</a>
+  <a mat-raised-button color="primary" routerLink="/ventas/crear">Nueva Venta</a>
+</div>
+
+<!-- AQUÍ SE PROYECTAN LOS COMPONENTES HIJOS (Listado o Crear) -->
+<div class="ventas-contenido">
+  <router-outlet></router-outlet>
+</div>

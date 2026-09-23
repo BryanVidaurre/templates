@@ -1,0 +1,25 @@
+<!-- Barra superior -->
+<mat-toolbar color="primary">
+  <mat-icon style="margin-right: 8px;">web</mat-icon>
+  <span>Portal Institucional</span>
+
+  <span class="spacer"></span>
+
+  <a mat-button routerLink="/inicio" routerLinkActive="active-link">Inicio</a>
+  <a mat-button routerLink="/ventas" routerLinkActive="active-link">Ventas</a>
+  <a mat-button routerLink="/inventario" routerLinkActive="active-link">Inventario</a>
+  <a mat-button routerLink="/usuarios" routerLinkActive="active-link">Usuarios</a>
+</mat-toolbar>
+
+<main class="page-container">
+
+  <router-outlet></router-outlet>
+
+
+  
+</main>
+
+
+<footer class="main-footer">
+  <p>© 2026 Asignatura Tecnología Web - Proyecto Integrado</p>
+</footer>

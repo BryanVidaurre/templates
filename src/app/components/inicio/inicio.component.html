@@ -1,0 +1,73 @@
+<!-- Sección Principal (Hero) -->
+<div class="hero-section">
+  <div class="hero-content">
+    <h1>Portal Integrado de Gestión</h1>
+    <p>La plataforma centralizada para administrar ventas, inventario y usuarios de forma eficiente y en un solo lugar.</p>
+    <div class="hero-actions">
+      <button mat-raised-button color="accent" class="cta-button" routerLink="/ventas">
+        Comenzar Ahora
+      </button>
+      <button mat-button class="outline-button" routerLink="/inventario">
+        Explorar Módulos
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Sección de Módulos (Features) -->
+<div class="features-section">
+  <h2>Módulos Disponibles</h2>
+  
+  <div class="features-grid">
+    <!-- Tarjeta Módulo Ventas -->
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <div mat-card-avatar class="feature-icon icon-ventas">
+          <mat-icon>point_of_sale</mat-icon>
+        </div>
+        <mat-card-title>Ventas</mat-card-title>
+        <mat-card-subtitle>Grupo 1</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Registra transacciones, emite comprobantes y visualiza el flujo de caja en tiempo real con nuestra interfaz optimizada.</p>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <button mat-button color="primary" routerLink="/ventas">Ir a Ventas</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <!-- Tarjeta Módulo Inventario -->
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <div mat-card-avatar class="feature-icon icon-inventario">
+          <mat-icon>inventory_2</mat-icon>
+        </div>
+        <mat-card-title>Inventario</mat-card-title>
+        <mat-card-subtitle>Grupo 2</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Controla el stock, gestiona proveedores y recibe alertas automáticas cuando los productos estén por agotarse.</p>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <button mat-button color="primary" routerLink="/inventario">Ir a Inventario</button>
+      </mat-card-actions>
+    </mat-card>
+
+    <!-- Tarjeta Módulo Usuarios -->
+    <mat-card class="feature-card">
+      <mat-card-header>
+        <div mat-card-avatar class="feature-icon icon-usuarios">
+          <mat-icon>manage_accounts</mat-icon>
+        </div>
+        <mat-card-title>Usuarios</mat-card-title>
+        <mat-card-subtitle>Grupo 3</mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Administra roles, permisos y perfiles de acceso para garantizar la seguridad en todas las operaciones del sistema.</p>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <button mat-button color="primary" routerLink="/usuarios">Ir a Usuarios</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

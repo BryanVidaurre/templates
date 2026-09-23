@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { InicioComponent } from './components/inicio/inicio.component';
 import { VentasComponent } from './components/ventas/ventas.component';
-// Importamos los nuevos componentes hijos (que crearemos en el paso 2)
 import { VentasListadoComponent } from './components/ventas/ventas-listado/ventas-listado.component';
 import { VentasCrearComponent } from './components/ventas/ventas-crear/ventas-crear.component';
 import { InventarioComponent } from './components/inventario/inventario.component';

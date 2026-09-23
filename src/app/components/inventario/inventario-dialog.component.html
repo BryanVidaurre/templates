@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>
+  <mat-icon color="primary">inventory_2</mat-icon>
+  {{ data.titulo }}
+</h2>
+
+<mat-dialog-content>
+  <p>{{ data.mensaje }}</p>
+  <mat-form-field appearance="outline" class="campo-dialogo">
+    <mat-label>Observación</mat-label>
+    <input matInput placeholder="Escribe una observación">
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="cerrar(false)">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="cerrar(true)">
+    {{ data.accion }}
+  </button>
+</mat-dialog-actions>

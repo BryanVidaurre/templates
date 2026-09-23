@@ -1,0 +1,76 @@
+.section-header {
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.6rem;
+  color: #1a237e;
+}
+
+.section-header p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.tab-content {
+  padding: 24px 0;
+}
+
+.tarjeta-ejemplo,
+.acordeon-ejemplo {
+  margin-top: 16px;
+}
+
+.elementos-fila {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.formulario-ejemplo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin-top: 16px;
+}
+
+.formulario-ejemplo mat-divider {
+  width: 100%;
+}
+
+.formulario-ejemplo mat-radio-button {
+  margin-right: 16px;
+}
+
+.controles-tabla {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.controles-tabla mat-form-field {
+  min-width: 240px;
+}
+
+.tabla-completa {
+  width: 100%;
+}
+
+.icono-categoria {
+  vertical-align: middle;
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.fila-vacia {
+  height: 56px;
+  text-align: center;
+  color: #6c757d;
+}

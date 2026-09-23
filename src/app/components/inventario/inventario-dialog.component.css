@@ -1,0 +1,10 @@
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.campo-dialogo {
+  width: 100%;
+  margin-top: 8px;
+}

@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { VentasComponent } from './components/ventas/ventas.component';
 import { InventarioComponent } from './components/inventario/inventario.component';
+import { InventarioDialogComponent } from './components/inventario/inventario-dialog.component';
 import { UsuariosComponent } from './components/usuarios/usuarios.component';
 import { MaterialModule } from './shared/material/material.module';
 import { VentasListadoComponent } from './components/ventas/ventas-listado/ventas-listado.component';
@@ -18,6 +19,7 @@ import { VentasCrearComponent } from './components/ventas/ventas-crear/ventas-cr
     InicioComponent,
     VentasComponent,
     InventarioComponent,
+    InventarioDialogComponent,
     UsuariosComponent,
     VentasListadoComponent,
     VentasCrearComponent
